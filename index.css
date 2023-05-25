@@ -12,7 +12,7 @@ a {
 /* Basic styling */
 body {
   font-family: Arial, sans-serif;
-  background-image: url("/img/1164874.jpg");
+  background-image: url("./img/1164874.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
