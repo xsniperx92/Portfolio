@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <script src="script.js"></script>
+    <title>Contact</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-me.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="javascript:history.go(-1)">Back</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Contact Me</h1>
+
+      <h3>You can contact me by</h3>
+
+      <div class="social">
+        <a onclick="FB()"
+          ><img src="img/facebook1.png" height="100px" alt="facebook"
+        /></a>
+
+        <a onclick="Insta()"
+          ><img src="img/instagram1.png" height="100px" alt="Quality"
+        /></a>
+
+        <a class="btn" onclick="openGmailCompose()"
+          ><img src="img/gmail1.png" alt="gmail" height="100px"
+        /></a>
+      </div>
+      <!-- <form id="commentForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" required></textarea>
+
+        <input type="submit" value="Submit" />
+      </form> -->
+
+      <div id="output"></div>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Hamad El-Kharboutly All rights reserved.</p>
+    </footer>
+  </body>
+</html>
